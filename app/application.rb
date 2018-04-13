@@ -6,7 +6,7 @@ class Application
     num2 = Kernel.rand(1..20)
     num3 = Kernel.rand(1..20)
 
-    if num1 == num2 && num2 == num_3
+    if num1 == num2 && num2 == num3
       resp.write "You Win"
     else
       "You Lose"
